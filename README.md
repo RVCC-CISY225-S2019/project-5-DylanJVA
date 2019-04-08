@@ -1,50 +1,47 @@
-# Project 4
-## Mobile First
+# Project 5
+## Add an Article and Contact Form
 
-**You are expected to read chapter 7 of your text as preparation for this assignment. Also you must use our CSS formatting rules from the CISY 225 Style Guide.**
+**You are expected to read Chapter 9 of your text as preparation for this assignment. Also you must use our CSS formatting rules from the CISY 225 Style Guide.**
 
-**You Must Have a Perfect Project 3 Repo. Make all changes to P3 before starting this project. Your grade depends on this. If you need help, ask me for help.**
+**You Must Have a Perfect Project 4 Repo. Make all changes to P4 before starting this project. Your grade depends on this. If you need help, ask me for help.**
 
-You are going to have to clone the files from Project 3 into this repo.  Then you'll edit index.html and styles.css to make the required changes. You will also be making new sizes of your three P3 images and your "about me" picture to use in the picture element (HTML5 text 7.8).  
+You are going to clone the files from Project 4 into this repo.  Then you'll edit index.html and styles.css to make the required changes. You will also be creating a formspree.io account for your contact form.  
   
-See [Built-in Browser Support for Responsive Images](https://www.html5rocks.com/en/tutorials/responsive/picture-element/ "Built-in Browser Support for Responsive Images")
+See [Email Contact Forms by Formspree](https://test.formspree.io/ "Email Contact Forms by Formspree")
 
 
-1. Download the clone of your completed and _perfect_ Project 3 repo.
-2. Make sure that the old README.md file does not overwrite this one. 
-3. Zero out everything in styles.css (make it an empty file).
-4. Upload the files and folders into this repo to make your starter code. 
-5. Find the original 3 pictures that you used for P3 along with your personal "about me" image.
-6. Resize those to these specifications. You will end up with 16 files.
+1. Download the clone of your completed and _perfect_ Project 4 repo, or be willing to correct P5 with P4 corrections as-needed.
+2. Add an article element after the section element that holds your 3 pictures. This article element needs to be inside the main element.
+3. Include an h1 element giving your article a title.
+4. Fill your article with **multiple paragraphs** from a content source. The content must be readable (no lorem ipsum) and approximately 1,000 words or more.
+   *  You can use anything that is copyrighted by you: something you have written for this assignment, something you have written for anything else.
+   *  Or, you can use old stories that are no longer under copyright. See [Lit Ipsum](https://litipsum.com/ "Lit Ipsum").
+5. Add a section element with class="form-container" outside of the main element and before the footer element. Add hr elements before and after this section. Add an h1 element to title this section.
+6. Add a form element with class="contact" inside the form-container section. Use the formspree example to get started.
+7. Do not have the placeholder attribute since it not considered best practice for accessibility.
+8. Edit the form for mobile-first design (no CSS to start).
+9. Add fieldset, legend, and radio button elements to make the form look like the example. Make sure to use an HTML5 button element for your submit button.
 
-| width  | filename addition |
-| ------------- | ------------- |
-| 320px  | -xsmall  |
-| 640px  | -small  |
-| 960px  | -med  |
-| 1024px  | -lrg  |
+10. See the example:
 
+![P5 Form](https://github.com/cynthiateeters/project-5/raw/master/src/p5-form.png "P5 form")
 
-7. Make sure these 16 pictures are in the images folder.
-8. In the index.html file, for each of your three images and your "about me" image, replace the plain img element with a picture element that is properly set up for your images.
-9. Edit the logo-1913689.svg file using Brackets and change line 12 to, 
-
-```
-<svg width="52px" enable-background="new 0 0 520 520" version="1.1" viewBox="0 0 520 520" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-```
-
-and save, overwriting the logo-1913689.svg file.
-
-10. Edit your empty styles.css file.
-11. In the CSS, specify on the body element a text-family property with one Google font and one system font. You must choose a serif Google font and use a serif system font as backup. Do not forget to replace the link in the head of your index.html file.
-  Use this link https://fonts.google.com/?category=Serif to find a serif font.     
+11. Use br element tags as much as is needed to make sure each target in the form has plenty of room for touch (minimum of 44px square target).
+12. Once the form in index.html matches the above with no styling, add CSS styling. Use Mozilla's tutorial for help. [Styling HTML forms
+](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms "Mozilla Tutorial")
  
-12. The CSS for each image should make the image have a max-width of 100%.
-13. Upload to the P4 repo all of your edited files, making sure the pictures remain in the images folder on upload. 
-14. Make sure your code passes the CISY 225 Styleguide. **If the code violates the styleguide, that is an immediate -2 points off on this assignment.**
-14. Download a clone of your repo to a different spot and do a visual check to make sure everything is good. **If your repo clone does not pass a visual inspection, that is an immediate -3 points off on this assignment.**
-15. Validate your html. **If your html does not pass validation with no errors, that is an immediate -3 points this assignment.**
-16. Validate your CSS.  **If your CSS does not pass validation, that is an immediate -3 points on this assignment.**
+13. At a minimum, add styling for: 
+   * font and text features 
+   * box-sizing
+   * legend
+   * focus
+   
+14. If you define any box sizes, make sure that to use responsive size units like percentage, rem, em. Do not use px.
+   
+15. Validate, validate, validate and beautify before submitting.    
+   
+16. Make sure the completed structure of the body of index.html looks like the below. (The content is purposely missing from this picture; it is only the structure.)
 
-As you can see, I am getting harder with the grading on this assignment. Pay attention to what you are doing. Make sure you spend as much time testing and validating as you do writing the code.
+![P5 Structure](https://github.com/cynthiateeters/project-5/raw/master/src/p5-structure.png "P5 structure of index.html")
 
+17. Upload the edited index.html and styles.css files often. Make your final submits before the due date.
